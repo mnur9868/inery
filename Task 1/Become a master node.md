@@ -1,4 +1,4 @@
-# Become a Master Node ( Master Approval )
+# TASK 1 : Become a Master Node ( Master Approval )
 > Make sure you have completed "Start a node" section before following this step ! Otherwise, you Will get problem during run this step !
 # 1. Configuration
 Configuring node with Inery Account name and server IP or DNS by opening config.json file
