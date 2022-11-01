@@ -5,5 +5,4 @@ You can show your support by give me a star and following my intagram @Mr9868_id
 You can rent me for doing the task also !
 
 
-Click view code -> Task 1 -> 
-Done
+Click view code -> Task 1 
