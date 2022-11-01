@@ -1,3 +1,4 @@
+# TASK 1 : Become a lite node
 # > Make sure you have following previous step !
 # 1. Configure your IP 
 For configuring node with yours server IP information go to inery-node/inery.setup/tools/ open config.json
