@@ -10,8 +10,8 @@ And also you can bought me a cup of cofeee, here is my USDT address
   • Disk: 250 GB SSD Storage \
   • Bandwidth: 250 Mbps 
 # Recommended VPS shop :
-  • Contabo
-  • Digital Ocean
+  • Contabo \
+  • Digital Ocean \
   • VULTR
 > Make sure your spesification is match to the requirements otherwise your VPS Will be suspended
 # 1. Update and upgrade your repository
