@@ -1,0 +1,36 @@
+# > Make sure you have following previous step !
+# 1. Configure your IP 
+For configuring node with yours server IP information go to inery-node/inery.setup/tools/ open config.json
+```
+cd tools;
+nano config.js
+```
+Find "LITE_NODE" and replace placeholder 
+```
+    "LITE_NODE" : {
+        "PEER_ADDRESS" : "YOUR_IP:9010",
+        "HTTP_ADDRESS": "0.0.0.0:8888",
+        "HOST_ADDRESS": "0.0.0.0:9010"
+    },
+```
+> Replace YOUR_IP to your IP address or your DNS address
+Then, Save it (ctrl+S), Type "Y" and exit (ctrl+X)
+# 2. Start blockchain protocol
+go to previous directory "inery-setup" and run ine.py script
+> ine.py script will start a blockchain protocol, run it with options "--lite" 
+```
+screen -S inery;
+cd ../;
+./ine.py --lite
+```
+> If everything is setup properly, after executing above command you should be able to see replay of blocks, may be up to few hours until sync is finished. After blockchain is replayed you will see new created blocks.
+Go to directory lite.node and execute script ./start.sh
+```
+cd lite.node;
+chmod +x start.sh;
+./start.sh 
+```
+# Done, Wait until your block is sync
+Check your Nodes Status on Inery Explorer https://explorer.inery.io/
+
+Your nodes should be seen produced blocks after your nodes synced.
